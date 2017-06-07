@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/bin/netmgrd:system/bin/netmgrd.exec \
 	vendor/samsung/celox/proprietary/bin/qcks:system/bin/qcks.exec \
 	vendor/samsung/celox/proprietary/bin/qmiproxy:system/bin/qmiproxy.exec \
+	vendor/samsung/celox/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
 	vendor/samsung/celox/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/celox/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/celox/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so
@@ -94,3 +95,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/samsung/celox/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/samsung/celox/proprietary/lib/libdsm.so:system/lib/libdsm.so
+
+PRODUCT_COPY_FILES += \
+	vendor/samsung/celox/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
