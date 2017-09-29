@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/celox/proprietary/bin/mpdecision:system/bin/mpdecision.exec \
 	vendor/samsung/celox/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/celox/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/celox/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
